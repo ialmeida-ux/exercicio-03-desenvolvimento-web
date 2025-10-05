@@ -1,0 +1,28 @@
+.container-border{
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    margin: 10px;
+    width: 400px;
+}
+.container{
+    border-top: 3px dotted blue;
+    border-left: 3px dotted blue;
+}
+.padding-bottom{
+    padding-bottom: 15px;
+}
+.border{
+    border-top: 10px solid rgb(76, 76, 76);
+    margin-top: 10px;
+    width: 410px;
+}
+.border-dotted{
+    border: 3px dotted blue;
+}
+.border-red{
+    outline: red solid 1px;
+}
+.padding{
+    padding: 20px;
+}
+

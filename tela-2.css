@@ -1,0 +1,31 @@
+.container{
+    border-top: 5px ridge gainsboro;
+    margin-top: var(--gap);
+    padding: 5px;
+    color: white;
+    width: 720px;
+}
+.container div{
+    margin: 10px 0;
+    background-color: #8d007c;
+    padding: 40px;
+    border: 2px solid #69D1F7;
+}
+.container h3{
+    margin-top: var(--gap);
+    background-color: #FFA032;  
+}
+.container h5:nth-child(4){
+    margin-top: var(--gap);
+    background-color: blue;
+}
+.container h5:nth-child(3){
+    margin-top: var(--gap);
+    background-color: red;
+}
+:root{
+    --gap: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}

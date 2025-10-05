@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-grid {
+    display: block;
+}
+
+.activity-card {
+    background: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+}
+
+.activity-card h2 {
+    color: var(--text-color);
+    font-size: 20px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin-bottom: 8px;
+}
+
+.links-list a {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.links-list a:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateX(5px);
+}

@@ -1,0 +1,76 @@
+.container{
+    background-color: var(--color-gray);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fcf8f0;
+}
+h1{
+    color: rgb(0, 0, 0, 0.6);
+    margin: 15px 0;
+    background-color: var(--color-gray-light);
+    padding: 10px 20px 10px;
+}
+:root{
+    --color-blue-dark: #007EDE;
+    --color-green: #00C887;
+    --color-pink-dark: #FF0080;
+
+}
+h5{
+    padding: 1px 5px 1px;
+}
+.content{
+    margin: 20px;
+    color: white;
+}
+.alcalinos{
+    background-color: var(--color-blue-dark);
+}
+.alcalino-13{
+    background-color: rgb(255, 255, 255, 0.10);
+}
+.alcalino-12{
+    background-color: rgb(255, 255, 255, 0.25);
+}
+.alcalino-11{
+    background-color: rgb(255, 255, 255, 0.35);
+}
+.alcalino-10{
+    background-color: rgb(255, 255, 255, 0.45);
+}
+.alcalino-09{
+    background-color: rgb(255, 255, 255, 0.55);
+}
+.alcalino-08{
+    background-color: rgb(255, 255, 255, 0.65);
+}
+.neutro{
+    background-color: var(--color-green);
+}
+.acido-06{
+    background-color: rgb(255, 255, 255, 0.65);
+}
+.acido-05{
+    background-color: rgb(255, 255, 255, 0.55);
+}
+.acido-04{
+    background-color: rgb(255, 255, 255, 0.45);
+}
+.acido-03{
+    background-color: rgb(255, 255, 255, 0.35);
+}
+.acido-02{
+    background-color: rgb(255, 255, 255, 0.25);
+}
+.acido-01{
+    background-color: rgb(255, 255, 255, 0.10);
+}
+.acidos{
+    background-color: var(--color-pink-dark);
+}
